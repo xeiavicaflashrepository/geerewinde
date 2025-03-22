@@ -1,4 +1,6 @@
 /*
+Copyright (C) 2025 - Matthew Polk.
+
 This file is part of geerewinde.
 
 Geerewinde is free software: you can redistribute it and/or modify it under the
