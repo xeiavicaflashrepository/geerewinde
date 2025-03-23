@@ -10,6 +10,9 @@ gtkdeps = [
     dependency('gtk4', version : '>=4.18')
 ]
 
+gnome = import('gnome')
+resources = gnome.compile_resources('resources', 'geerewinde.geresource.xml')
+
 srcs = [
     'src/main.c'
 ]
@@ -17,5 +20,6 @@ srcs = [
 executable(
     'geerewinde',
     srcs,
+    resources,
     dependencies : gtkdeps
 )
